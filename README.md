@@ -1,1 +1,1 @@
-# design-patterns-creational-prototype
+# Prototype
