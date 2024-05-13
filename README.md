@@ -12,3 +12,7 @@ Como criar um objeto novo aproveitando o estado previamente existe em outro obje
 - Performance
 - Desacoplamento
 - Memória
+
+## Solução:
+
+O padrão Prototype delega o processo de clonagem para o próprio objeto que está sendo clonado. O padrão declara um interface comum para todos os objetos que suportam clonagem. Essa interface permite que você clone um objeto sem acoplar seu código à classe daquele objeto. No Java já existe o método clone()
