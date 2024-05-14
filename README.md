@@ -22,3 +22,5 @@ A implementação do método `clone()` é muito parecida em todas as classes. O 
 Um objeto que suporta clonagem é chamado de um protótipo. Quando seus objetos têm dúzias de campos e centenas de possíveis configurações, cloná-los pode servir como uma alternativa à subclasses. Cria-se um conjunto de objetos, configurados de diversas formas. Quando você precisa um objeto parecido com o que você configurou, apenas clona um protótipo ao invés de construir um novo objeto a partir do nada.
 
 ## Implementação básica
+
+- Cria interface `Prototype` declara os métodos de clonagem. Na maioria dos casos é apenas um método clonar como no Java.
