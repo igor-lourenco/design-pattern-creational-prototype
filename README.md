@@ -24,3 +24,5 @@ Um objeto que suporta clonagem é chamado de um protótipo. Quando seus objetos 
 ## Implementação básica
 
 - Cria interface `Prototype` declara os métodos de clonagem. Na maioria dos casos é apenas um método clonar como no Java.
+
+- A classe `Prototype` Concreta implementa o método de clonagem. Além de copiar os dados do objeto original para o clone, esse método também pode lidar com alguns casos específicos do processo de clonagem relacionados a clonar objetos ligados, desfazendo dependências recursivas, etc.
