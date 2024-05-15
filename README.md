@@ -31,3 +31,4 @@ Um objeto que suporta clonagem é chamado de um protótipo. Quando seus objetos 
 
 
 ## Estrutura do projeto
+![prototype](https://github.com/igor-lourenco/design-pattern-creational-prototype/blob/main/uml/prototype.png)
